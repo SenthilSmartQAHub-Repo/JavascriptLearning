@@ -60,3 +60,22 @@ console.log(typeof(v1))
 console.log(typeof(v2))
 
 console.log(typeof(v2.valueOf()))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
