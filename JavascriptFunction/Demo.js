@@ -27,10 +27,32 @@ addToNumber()
 addToNumber()
 
 //a ==> Mandatory parameter
-//b ==> Default parameter
+//b ==> Default parameter(undefined, no values passed)
 function add(a,b=1)
 {
     console.log(a+b)
 }
-add(5)
+add(5,undefined)
+
+//Arrow Function 
+
+const display=()=>console.log("Welcome")
+
+
+display()
+
+
+//const addValue=(a,b)=>{a+b}
+const addValue=(a,b)=>a+b
+console.log(addValue(10,20))
+
+
+//Anonymous Functions
+
+const displayvalue=function (){
+   console.log("test")
+}
+
+displayvalue()
+
 
